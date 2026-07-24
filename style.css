@@ -3,6 +3,7 @@
     --color-1:#e6dfd0;
     --color-2:#ffffff;
     --color-3:#000000;
+    --color-4:#2e4969;
     --font-principal:'MiFuente';
     --font-secundaria:'MiFuente2';
 }
@@ -456,11 +457,11 @@ nav {
     flex-direction: column;
     height: auto;
     
-    color: var(--color-2);
+    color: var(--color-4);
   
 }
 .accordion H3 {
-    color: var(--color-2);
+    color: var(--color-4);
     font-family: var(--font-principal);
     letter-spacing: 0.1rem;
     font-size: 2.6em;
@@ -470,10 +471,10 @@ nav {
     text-align: center;
 }
 .accordion-item {
-    border: 1px solid var(--color-2);
+    border: 1px solid var(--color-4);
     margin: 4PX auto;
     height: auto;
-    color: var(--color-2);
+    color: var(--color-4);
     background-color: var(--color-1);
     max-width: 80vw;
     text-align: center;
